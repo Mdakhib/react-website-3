@@ -10,10 +10,10 @@ import {
   SidebarLink,
 } from "./SidebarElement";
 
-function index() {
+function index({toggle,isOpen}) {
     return (
-      <SidebarContainer>
-        <Icon>
+      <SidebarContainer isOpen={isOpen} onClick={toggle}>
+        <Icon onClick={toggle}>
           <CloseIcon />
         </Icon>
         <SidebarWrapper>
