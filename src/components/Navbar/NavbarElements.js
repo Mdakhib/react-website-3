@@ -5,7 +5,7 @@ import {Link as LinkR} from 'react-router-dom'
 export const Nav = styled.nav`
   background: #000;
   height: 80px;
-  margin-top: -80px;
+  margin-top: -80px;  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,6 +116,7 @@ text-decoration:none;
 &:hover{
   transition:all 0.2s ease-in-out;
   color:#010606;
+  background:#fff;
 }
 `;
 
