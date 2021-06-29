@@ -21,7 +21,7 @@ function HeroSection() {
   };
 
   return (
-    <HeroContainer>
+    <HeroContainer id='home'>
       <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type="/videos/" />
       </HeroBg>
@@ -32,7 +32,18 @@ function HeroSection() {
           your next payment
         </HeroP>
         <HeroBtnWrapper>
-          <Button  to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
+          <Button
+            to="signup"
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            primary="true"
+            dark="true"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={40}
+          >
             Get Started {hover ? <ArrowForward /> : <ArrowRight />}{" "}
           </Button>
         </HeroBtnWrapper>
