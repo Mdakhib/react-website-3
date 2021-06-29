@@ -13,7 +13,6 @@ import {
   Column2,
   ImgWrap,
     Img,
-  primary,dark,dark2
 } from "./InfoElement";
 
 function InfoSection({
