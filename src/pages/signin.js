@@ -1,9 +1,10 @@
 import React from 'react'
+import SignIn from '../components/Signin'
 
 const SigninPage = () => {
     return (
         <>
-            <h1>hai</h1>
+            <SignIn />
         </>
     )
 }
